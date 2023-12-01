@@ -7,6 +7,7 @@ import { script } from "./test-script.js";
 export class Sample {
     static run1() {
         var scriptHtml = wrapHtml(script)
+        
         var scene = parseHtmlScript(script)
         var renderedHtml = SceneViewer.render(scene)
         return renderedHtml

@@ -22,7 +22,7 @@ EditorMain.startup();
 
 
 
-// Run the Game Script DSL on a sample game file
+// Run the Game Script DSL on a test game file
 window.location.assign("#/dsleditor")
 Sample.run1();
 
